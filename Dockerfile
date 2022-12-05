@@ -1,4 +1,5 @@
-FROM nvidia/cuda:11.5.0-cudnn8-runtime-ubuntu22.0
+FROM nvidia/cuda:11.5.0-cudnn8-runtime-ubuntu20.04
+FROM ubuntu
 FROM ubuntu
 
 ARG DEBIAN_FRONTEND=noninteractive
